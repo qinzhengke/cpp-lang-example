@@ -7,3 +7,6 @@ add_executable(vector
 
 add_executable(map
     src/container/map.cc)
+
+add_executable(shared_ptr
+    src/memory/shared_ptr.cc)
