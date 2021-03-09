@@ -10,3 +10,6 @@ add_executable(map
 
 add_executable(shared_ptr
     src/memory/shared_ptr.cc)
+
+add_executable(thread
+    src/thread/thread.cc)
