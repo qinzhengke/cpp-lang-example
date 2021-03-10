@@ -13,3 +13,10 @@ add_executable(shared_ptr
 
 add_executable(thread
     src/thread/thread.cc)
+
+target_link_libraries(thread
+    pthread
+)
+
+
+add_subdirectory(qt/symbol)
